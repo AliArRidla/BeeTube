@@ -13,8 +13,6 @@
 		CE70C203247DF318008F8E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70C201247DF318008F8E15 /* Main.storyboard */; };
 		CE70C205247DF31B008F8E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE70C204247DF31B008F8E15 /* Assets.xcassets */; };
 		CE70C208247DF31B008F8E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70C206247DF31B008F8E15 /* LaunchScreen.storyboard */; };
-		CE70C213247DF31B008F8E15 /* BeeTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70C212247DF31B008F8E15 /* BeeTubeTests.swift */; };
-		CE70C21E247DF31B008F8E15 /* BeeTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE70C21D247DF31B008F8E15 /* BeeTubeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		CE70C207247DF31B008F8E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE70C209247DF31B008F8E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE70C20E247DF31B008F8E15 /* BeeTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE70C212247DF31B008F8E15 /* BeeTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTubeTests.swift; sourceTree = "<group>"; };
-		CE70C214247DF31B008F8E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE70C219247DF31B008F8E15 /* BeeTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE70C21D247DF31B008F8E15 /* BeeTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeTubeUITests.swift; sourceTree = "<group>"; };
-		CE70C21F247DF31B008F8E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CE70C1FA247DF318008F8E15 /* BeeTube */,
-				CE70C211247DF31B008F8E15 /* BeeTubeTests */,
-				CE70C21C247DF31B008F8E15 /* BeeTubeUITests */,
 				CE70C1F9247DF318008F8E15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				CE70C209247DF31B008F8E15 /* Info.plist */,
 			);
 			path = BeeTube;
-			sourceTree = "<group>";
-		};
-		CE70C211247DF31B008F8E15 /* BeeTubeTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE70C212247DF31B008F8E15 /* BeeTubeTests.swift */,
-				CE70C214247DF31B008F8E15 /* Info.plist */,
-			);
-			path = BeeTubeTests;
-			sourceTree = "<group>";
-		};
-		CE70C21C247DF31B008F8E15 /* BeeTubeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE70C21D247DF31B008F8E15 /* BeeTubeUITests.swift */,
-				CE70C21F247DF31B008F8E15 /* Info.plist */,
-			);
-			path = BeeTubeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE70C213247DF31B008F8E15 /* BeeTubeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE70C21E247DF31B008F8E15 /* BeeTubeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
